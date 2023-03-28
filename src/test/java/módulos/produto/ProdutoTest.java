@@ -1,4 +1,4 @@
-package módulos.produto;
+package modulos.produto;
 
 import dataFactory.ProdutoDataFactory;
 import dataFactory.UsuarioDataFactory;
@@ -17,7 +17,7 @@ public class ProdutoTest {
     public void beforeEach() {
         //Configurando dados da API Rest da Lojinha
             baseURI = "http://165.227.93.41";
-            basePath = "/lojinha";
+            basePath = "/lojinha-bugada";
 
             //Obter o Token do usuário Admin
 
